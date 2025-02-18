@@ -5,8 +5,8 @@ document.getElementById("login-form").addEventListener("submit", function(event)
   const name = document.getElementById("name").value;
 
   if (email && name) {
-      localStorage.setItem("userEmail", email);
-      localStorage.setItem("userName", name);
+      // localStorage.setItem("userEmail", email);
+      // localStorage.setItem("userName", name);
       alert("Login Successful!");
       window.location.href = "index.html"; // Homepage par redirect karega
   } else {
